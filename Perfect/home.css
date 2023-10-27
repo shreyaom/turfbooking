@@ -1,0 +1,546 @@
+{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+/**nav bar**/
+
+.logo{
+    margin:2px 15px;
+    
+}
+   
+
+.logoimg{
+    height: 100px;
+    width: 120px;
+    position: absolute;
+    top:3px;
+}
+
+
+
+.logo img:hover{
+    height: 110px;
+    width: 130px;
+    transition: 0.3s;
+
+}
+    
+    
+
+.navbar{
+        display: flex;
+        align-items: center;
+        height: 60px;
+        width: 100%;
+        height: 87px;
+        transition: 0.3s;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+ }
+
+
+
+ .navbar:hover{
+        width:100%;
+        height:100px;
+        background-color:rgba(94, 104, 95, 0.436);
+        box-shadow: 0 6px 16px rgba(0, 0, 0.3, 0.4);
+    }
+
+
+
+ #video-background {
+    position:FIXED;
+    left: 0;
+    height: 101.6%;
+    width: 101.6%;
+    top: 0px;
+    background-size: cover;
+    z-index: -1;
+     object-fit: cover;
+     }
+
+
+    /** menu icon **/
+
+.menu-icon {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 10px;
+    position:absolute;;
+    right: 20px;
+ }
+
+ 
+ 
+.menu-icon:hover{
+  font-size: 31px;
+  background-color: #a3a4a337;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0.2, 0.3, 0.5);
+}
+
+
+
+.dropdown-content {
+    display: none;
+    width: 200px;
+    height: 290px;
+    font-size: 1.25rem;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0.5, 0.5, 1.8);
+    z-index: 1;
+    position:absolute;
+    right: 20px;
+    top: 95px;
+    background-color:rgba(18, 68, 47, 0.316);
+    border-radius: 15px;
+    transition: 0.5s;
+    border: 2px solid rgba(101, 173, 126, 0.247);
+}
+
+
+ 
+
+.dropdown-content:hover{
+    width: 250px;
+    height: 320px;
+}
+
+
+
+.dropdown-content a {
+    color:rgba(189, 206, 216, 0.942);
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+
+
+
+.dropdown-content a:hover {
+    background-color:rgba(113, 123, 114, 0.385);
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0.4, 0.5, 0.5, 0.4);
+    font-size: 1.38rem;
+  }
+  
+
+
+
+/** MAIN **/
+
+
+ .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+} 
+ 
+
+
+.main h1{
+        color:white;
+        text-shadow: 2px 2px 2px #000000;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        transition: 0.5s;
+        position: absolute;
+        top: 300px;
+ }
+    
+
+.main h1:hover{
+        font-size: 45px;
+    
+}
+
+
+
+
+.main p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:rgb(255, 244, 244);
+        position:absolute;
+        top: 400px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 1.5px 1.5px 1.5px #000000;
+        transition: 0.5s;
+        
+ }
+  
+ 
+
+ .main p:hover{
+        font-size: 24px;
+}
+
+   
+
+.main button{
+        margin-top: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 10px;
+        margin-bottom: 2px;
+        border: 3PX SOLID rgba(94, 112, 94, 0.679);
+        background-color: rgb(14, 43, 17);
+        font-size: 1.2rem;
+        cursor:pointer;
+        font-family: 'Times New Roman', Times, serif;
+        transition: 0.3s;
+        text-shadow: 1.5px 1.5px 1.5px #000000;
+        box-shadow: 0 8px 16px rgba(0.4, 0.5, 0.5, 0.4);
+        position:absolute;
+        top: 520px;
+
+}
+    
+        
+      
+.main button:hover{
+        background-position:initial;
+        background-color: rgba(38, 95, 44, 0.804);
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 15px;
+        border: 2px solid white;
+        font-size: 1.4rem;
+        box-shadow: 0 8px 16px rgba(0.4, 0.5, 0.6, 0.7);
+        
+}
+    
+    
+    
+.main a{
+        text-decoration: none;
+        color: white;
+        
+ }
+
+
+ 
+
+ /**MID BOXES**/
+
+
+
+
+
+ .mid{
+    display: flex;
+    align-items: center;
+    height:850PX;
+    width: 100.08%;
+    background-color: rgba(0, 0, 0, 0.797);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    color: white;
+    position:absolute;
+    
+    right: 0px;
+    top: 692px;
+    z-index: -1;
+     
+}
+
+
+
+.box{
+    display: block;
+    border: 5px solid white;
+    height: 300px;
+    width:400px;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(15, 68, 15, 0.734);
+    border-radius: 23px;
+    text-align: center;
+    margin: 35px;
+    transition: 0.3s;
+    filter: brightness(50%); /* Adjust the percentage to control brightness */
+    opacity: 0.9; /* Adjust the opacity value (0.0 to 1.0) */
+    transition: filter 0.4s ease-in-out, opacity 0.3s ease-in-out; /* Add a smooth transition effect */
+  
+}
+
+
+
+.box:hover{
+    height: 350px;
+  width: 500px;
+  filter: brightness(100%); /* Restore full brightness on hover */
+  opacity: 1; /* Restore full opacity on hover */
+  border:3px solid white;
+  box-shadow: 2px 3px 6px 2px rgba(39, 234, 0, 0.673);
+  background-color: rgba(25, 110, 37, 0.841);
+ 
+}
+
+
+
+.box p{
+    color: rgb(255, 255, 255);
+    font-size: 1.19rem;
+    transition: 0.2s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.box p:hover{
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 35px;
+}
+
+
+
+.box h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size:3rem;
+   transition: 0.2s;}
+
+
+
+
+
+.box h1:hover{
+    padding-bottom: 35px;
+    font-size: 3.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px #1eff00;
+   }
+
+
+
+
+#book{
+
+    height: 40px;
+    width: 110px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    transition: 0.2s;
+   
+}
+ 
+
+
+#book:hover{
+height: 60px;
+width: 150px;
+}
+
+
+
+
+.r{
+    height: 60px;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+
+
+
+.r:hover{
+    height: 75px;
+    border-radius: 50%;
+}
+
+
+
+
+#play{
+    height: 65px;
+    width: 80px;
+    transition: 0.2s;
+}
+
+
+
+
+#play:hover{
+    height: 85px;
+    width: 100px;
+border-radius: 50%;
+}
+
+
+
+
+.box a{
+    text-decoration: none;
+}
+
+
+
+
+/** MEET YOUR PALS OVER GAME **/
+
+
+
+
+
+.middle{
+    height: 750px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.837);
+    position: absolute;
+    top:1450px;
+    left: 0;
+    z-index: -1;
+}
+
+.middle h1{
+    color: rgba(11, 209, 104, 0.789);
+    font-size: 5.2rem;
+    margin-left:35PX;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top:145px;
+    
+    
+}
+
+.middle p{
+    color: white;
+    position: absolute;
+    top:500px;
+    left: 25px;
+    font-size: 1.3rem;
+   
+}
+
+.ball
+{
+    height: 500px;
+    position: absolute;
+    top:150px;
+    right: 25px;
+}
+
+
+
+
+/**CONTACT US **/
+
+
+
+
+
+.contact{
+    display: block;
+    height:500PX;
+    width: 100%;
+    background-image: url(s.jpeg);
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    position: absolute;
+    top: 2200PX;
+    left: 0PX;
+    z-index: -1;
+    color: rgb(241, 188, 189);
+
+}
+
+.contact h1{
+    margin-bottom: 20px;
+   color: rgb(255, 255, 255);
+   
+}
+
+
+
+.contactbox{
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.contactbox form{
+    width: 40%;
+   
+}
+
+.contactbox input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: rgba(253, 255, 254, 0.896);
+   
+}
+
+.contactbox textarea{
+    width: 100%;
+    padding: 0.3rem;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+
+
+.contact p{
+    text-align: left;
+    font-size: 20px;
+    
+} 
+
+
+ 
+
+
+/** FOOTER**/
+
+.footer{
+    text-align: center;
+    background-color: rgb(29, 29, 62);
+    color: white;
+    height: 30px;
+    padding: 30px;
+    justify-content: center;
+    position: absolute;
+    top: 2830PX;
+    width:1460PX;
+    left: 0;
+
+}
